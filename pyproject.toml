@@ -1,7 +1,7 @@
 [project]
 name = "turbodiffusion"
 description = "TurboDiffusion: video generation acceleration framework that could accelerate end-to-end video generation by 100-205x with negligible video quality loss."
-version = "0.1.2"
+version = "1.0.0"
 authors = [
   { name = "Jintao Zhang" },
   { name = "Kaiwen Zheng" },
