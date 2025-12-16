@@ -96,7 +96,7 @@ pip install git+https://github.com/thu-ml/SpargeAttn.git --no-build-isolation
     wget https://huggingface.co/TurboDiffusion/TurboWan2.1-T2V-1.3B-480P/resolve/main/TurboWan2.1-T2V-1.3B-480P-quant.pth
     ```
     
-    For GPUs with a bigger GPU memory than 40GB, e.g., H100, we recommend using the unquantized checkpoint.
+    For GPUs with more than 40GB of GPU memory, e.g., H100, we recommend using the unquantized checkpoint (without `-quant`) and removing `--quant_linear` from the command.
 
     For the I2V model, download both the high-noise and low-noise checkpoints:
     ```bash
@@ -581,8 +581,8 @@ We welcome community members to help maintain and extend TurboDiffusion. Welcome
 
 @software{turbodiffusion2025,
   title={TurboDiffusion: Accelerating Video Diffusion Models by 100--205 Times},
-  author       = {The TurboDiffusion Team},
-  url          = {https://github.com/thu-ml/TurboDiffusion},
+  author={The TurboDiffusion Team},
+  url={https://github.com/thu-ml/TurboDiffusion},
   year={2025}
 }
 
